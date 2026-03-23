@@ -1,11 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mary Grace Espiritu — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
-    
+
+    <!-- ═══ NAV ═══ -->
+    <nav>
+        <a class="nav-logo" href="#">Mary Grace <span>Espiritu</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- ═══════════════════════════════════════════════
+     HERO
+     ✏️ Palitan ang mga [ ] na text
+═══════════════════════════════════════════════ -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-glow2"></div>
+
+        <!-- ✏️ PALITAN: e.g. "Available for opportunities" o "Open to freelance work" -->
+        <p class="hero-tag fade-in">Available for opportunities</p>
+
+        <h1 class="hero-name fade-in">Mary Grace</h1>
+        <p class="hero-name-italic fade-in">Espiritu.</p>
+
+        <p class="hero-subtitle fade-in">
+            <!-- ✏️ PALITAN: Ilagay ang iyong title at short description -->
+            <strong>[ Your Title Here ]</strong> — e.g. UI/UX Designer · Front-End Developer · Creative based in the Philippines.
+        </p>
+
+        <div class="hero-actions fade-in">
+            <!-- ✏️ PALITAN ang href ng iyong email -->
+            <a class="btn-primary" href="#contact">Get In Touch →</a>
+            <a class="btn-ghost" href="#projects">View My Work</a>
+        </div>
+
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════
+     ABOUT
+     ✏️ Palitan ang mga [ ] na text
+═══════════════════════════════════════════════ -->
+    <section id="about">
+        <div class="section-inner">
+            <p class="section-label">01 — About Me</p>
+            <div class="about-grid fade-in">
+
+                <div>
+                    <h2 class="section-heading">Hello, I'm <em>Grace.</em></h2>
+                    <div class="about-bio">
+                        <!-- ✏️ PALITAN: Isulat ang tungkol sa sarili mo (2-3 paragraphs) -->
+                        <p>[ Paragraph 1: Sino ka? Ano ang iyong field? Ilang taon ka nang nagtatrabaho? ]</p>
+                        <p>[ Paragraph 2: Ano ang iyong passion, work style, o goals? ]</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h4>Quick Info</h4>
+                    <ul class="info-list">
+                        <li>
+                            <span>Name</span>
+                            <span>Mary Grace Espiritu</span>
+                        </li>
+                        <li>
+                            <span>Location</span>
+                            <span>[ City, Philippines ]</span> <!-- ✏️ PALITAN -->
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <span><a href="mailto:your@email.com">[ your@email.com ]</a></span> <!-- ✏️ PALITAN -->
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <span>[ +63 9XX XXX XXXX ]</span> <!-- ✏️ PALITAN -->
+                        </li>
+                        <li>
+                            <span>Status</span>
+                            <!-- ✏️ PALITAN: Open to Work / Employed / Freelance -->
+                            <span style="color:var(--accent)">[ Open to Work ]</span>
+                        </li>
+                        <li>
+                            <span>Languages</span>
+                            <span>[ Filipino, English ]</span> <!-- ✏️ PALITAN -->
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════
+     SKILLS
+     ✏️ Palitan ang mga [ ] na text
+     ✏️ Baguhin ang width ng skill-bar-fill (100% = expert, 50% = beginner)
+═══════════════════════════════════════════════ -->
+    <section id="skills">
+        <div class="section-inner">
+            <p class="section-label">02 — Skills</p>
+            <h2 class="section-heading fade-in">What I <em>know.</em></h2>
+
+            <div class="skills-grid fade-in">
+
+                <!-- GROUP 1 -->
+                <div class="skill-group">
+                    <h4>Technical Skills</h4>
+                    <!-- ✏️ PALITAN ang skill names + width -->
+                    <div class="skill-item"><span>[ Skill 1 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Skill 2 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Skill 3 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Skill 4 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:60%"></div>
+                        </div>
+                    </div>
+                    <!-- ✏️ I-copy ang isang line para mag-add ng skill -->
+                </div>
+
+                <!-- GROUP 2 -->
+                <div class="skill-group">
+                    <h4>Tools &amp; Software</h4>
+                    <!-- ✏️ PALITAN -->
+                    <div class="skill-item"><span>[ Tool 1 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Tool 2 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Tool 3 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Tool 4 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:55%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GROUP 3 -->
+                <div class="skill-group">
+                    <h4>Soft Skills</h4>
+                    <!-- ✏️ PALITAN -->
+                    <div class="skill-item"><span>[ Soft Skill 1 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Soft Skill 2 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Soft Skill 3 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item"><span>[ Soft Skill 4 ]</span>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════
+     EXPERIENCE
+     ✏️ I-COPY ang isang .timeline-item block para mag-add ng bagong experience
+═══════════════════════════════════════════════ -->
+    <section id="experience">
+        <div class="section-inner">
+            <p class="section-label">03 — Experience</p>
+            <h2 class="section-heading fade-in">Where I've <em>worked.</em></h2>
+
+            <div class="timeline fade-in">
+
+                <!-- ── EXPERIENCE 1 ── -->
+                <div class="timeline-item">
+                    <div>
+                        <div class="timeline-date">[ Month Year ] — Present</div> <!-- ✏️ PALITAN -->
+                        <div class="timeline-badge">Full-time</div> <!-- ✏️ PALITAN: Full-time / Part-time / Internship / Freelance -->
+                    </div>
+                    <div>
+                        <div class="timeline-role">[ Job Title ]</div> <!-- ✏️ PALITAN -->
+                        <div class="timeline-company">[ Company Name ]</div> <!-- ✏️ PALITAN -->
+                        <div class="timeline-desc">
+                            [ Ilarawan ang iyong responsibilities at achievements. Anong impact ang nagawa mo? ] <!-- ✏️ PALITAN -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── EXPERIENCE 2 ── -->
+                <div class="timeline-item">
+                    <div>
+                        <div class="timeline-date">[ Month Year ] — [ Month Year ]</div> <!-- ✏️ PALITAN -->
+                        <div class="timeline-badge">Internship</div> <!-- ✏️ PALITAN -->
+                    </div>
+                    <div>
+                        <div class="timeline-role">[ Job Title ]</div> <!-- ✏️ PALITAN -->
+                        <div class="timeline-company">[ Company Name ]</div> <!-- ✏️ PALITAN -->
+                        <div class="timeline-desc">
+                            [ Ilarawan ang iyong responsibilities at achievements. ] <!-- ✏️ PALITAN -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ✏️ I-COPY ang block sa itaas para mag-add ng more experience -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════
+     PROJECTS
+     ✏️ I-COPY ang isang .project-card block para mag-add ng bagong project
+═══════════════════════════════════════════════ -->
+    <section id="projects">
+        <div class="section-inner">
+            <p class="section-label">04 — Projects</p>
+            <h2 class="section-heading fade-in">Things I've <em>built.</em></h2>
+
+            <div class="projects-grid fade-in">
+
+                <!-- ── PROJECT 1 ── -->
+                <div class="project-card">
+                    <div class="project-num">Project 01</div>
+                    <div class="project-title">[ Project Name ]</div> <!-- ✏️ PALITAN -->
+                    <div class="project-tags">
+                        <span class="tag">[ Tag 1 ]</span> <!-- ✏️ PALITAN: e.g. HTML, CSS, Figma -->
+                        <span class="tag">[ Tag 2 ]</span>
+                        <span class="tag">[ Tag 3 ]</span>
+                    </div>
+                    <div class="project-desc">
+                        [ Ilarawan ang project — ano ito, anong problema ang nireresolba nito, at ano ang iyong ginawa. ] <!-- ✏️ PALITAN -->
+                    </div>
+                    <a class="project-link" href="#" target="_blank">View Project →</a> <!-- ✏️ PALITAN ang href -->
+                </div>
+
+                <!-- ── PROJECT 2 ── -->
+                <div class="project-card">
+                    <div class="project-num">Project 02</div>
+                    <div class="project-title">[ Project Name ]</div> <!-- ✏️ PALITAN -->
+                    <div class="project-tags">
+                        <span class="tag">[ Tag 1 ]</span>
+                        <span class="tag">[ Tag 2 ]</span>
+                    </div>
+                    <div class="project-desc">
+                        [ Ilarawan ang project. ] <!-- ✏️ PALITAN -->
+                    </div>
+                    <a class="project-link" href="#" target="_blank">View Project →</a> <!-- ✏️ PALITAN ang href -->
+                </div>
+
+                <!-- ── PROJECT 3 ── -->
+                <div class="project-card">
+                    <div class="project-num">Project 03</div>
+                    <div class="project-title">[ Project Name ]</div> <!-- ✏️ PALITAN -->
+                    <div class="project-tags">
+                        <span class="tag">[ Tag 1 ]</span>
+                        <span class="tag">[ Tag 2 ]</span>
+                    </div>
+                    <div class="project-desc">
+                        [ Ilarawan ang project. ] <!-- ✏️ PALITAN -->
+                    </div>
+                    <a class="project-link" href="#" target="_blank">View Project →</a> <!-- ✏️ PALITAN ang href -->
+                </div>
+
+                <!-- ── PROJECT 4 ── -->
+                <div class="project-card">
+                    <div class="project-num">Project 04</div>
+                    <div class="project-title">[ Project Name ]</div> <!-- ✏️ PALITAN -->
+                    <div class="project-tags">
+                        <span class="tag">[ Tag 1 ]</span>
+                        <span class="tag">[ Tag 2 ]</span>
+                    </div>
+                    <div class="project-desc">
+                        [ Ilarawan ang project. ] <!-- ✏️ PALITAN -->
+                    </div>
+                    <a class="project-link" href="#" target="_blank">View Project →</a> <!-- ✏️ PALITAN ang href -->
+                </div>
+
+                <!-- ✏️ I-COPY ang block sa itaas para mag-add ng more projects -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════
+     EDUCATION
+     ✏️ I-COPY ang isang .edu-card block para mag-add ng bagong education entry
+═══════════════════════════════════════════════ -->
+    <section id="education">
+        <div class="section-inner">
+            <p class="section-label">05 — Education</p>
+            <h2 class="section-heading fade-in">Where I <em>studied.</em></h2>
+
+            <div class="edu-grid fade-in">
+
+                <!-- ── EDUCATION 1 ── -->
+                <div class="edu-card">
+                    <div class="edu-year">[ Year Graduated / Expected Year ]</div> <!-- ✏️ PALITAN -->
+                    <div class="edu-degree">[ Degree / Course Name ]</div> <!-- ✏️ PALITAN: e.g. BS Information Technology -->
+                    <div class="edu-school">[ University / School Name ]</div> <!-- ✏️ PALITAN -->
+                    <div class="edu-detail">
+                        [ Optional: Major, GWA, Honors, or any detail ] <!-- ✏️ PALITAN o tanggalin ang div na ito -->
+                    </div>
+                </div>
+
+                <!-- ── EDUCATION 2 ── -->
+                <div class="edu-card">
+                    <div class="edu-year">[ Year Graduated ]</div> <!-- ✏️ PALITAN -->
+                    <div class="edu-degree">[ Senior High / Certification / Training ]</div> <!-- ✏️ PALITAN -->
+                    <div class="edu-school">[ School / Institution Name ]</div> <!-- ✏️ PALITAN -->
+                    <div class="edu-detail">
+                        [ Optional: Strand, Track, or details ] <!-- ✏️ PALITAN o tanggalin -->
+                    </div>
+                </div>
+
+                <!-- ✏️ I-COPY ang block sa itaas para mag-add ng certifications, trainings, etc. -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════
+     CONTACT
+     ✏️ Palitan ang mga [ ] na text
+═══════════════════════════════════════════════ -->
+    <section id="contact">
+        <div class="section-inner">
+            <p class="section-label">06 — Contact</p>
+            <div class="contact-grid fade-in">
+
+                <div>
+                    <h2 class="section-heading">Let's <em>connect.</em></h2>
+                    <!-- ✏️ PALITAN: Isulat ang iyong personal na mensahe -->
+                    <p class="contact-note">
+                        "[ Isulat dito ang iyong invitation — e.g. Always open to new opportunities, collaborations, and interesting conversations. ]"
+                    </p>
+                    <br>
+                    <!-- ✏️ PALITAN ang email -->
+                    <a class="btn-primary" href="mailto:your@email.com">Send Me an Email →</a>
+                </div>
+
+                <ul class="contact-links">
+                    <li>
+                        <span>Email</span>
+                        <a href="mailto:your@email.com">[ your@email.com ]</a> <!-- ✏️ PALITAN -->
+                    </li>
+                    <li>
+                        <span>LinkedIn</span>
+                        <a href="https://linkedin.com/in/yourhandle" target="_blank">linkedin.com/in/[ yourhandle ]</a> <!-- ✏️ PALITAN -->
+                    </li>
+                    <li>
+                        <span>GitHub</span>
+                        <!-- ✏️ PALITAN o tanggalin ang li na ito kung hindi relevant -->
+                        <a href="https://github.com/yourhandle" target="_blank">github.com/[ yourhandle ]</a>
+                    </li>
+                    <li>
+                        <span>Facebook</span>
+                        <a href="#" target="_blank">[ Your Facebook URL or Name ]</a> <!-- ✏️ PALITAN -->
+                    </li>
+                    <li>
+                        <span>Other</span>
+                        <!-- ✏️ PALITAN: Behance, Dribbble, personal website, etc. O tanggalin kung wala -->
+                        <a href="#">[ Behance / Dribbble / Website URL ]</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <span><span class="footer-dot"></span>© 2025 Mary Grace Espiritu</span>
+        <span>Made with care ✦</span>
+    </footer>
+
+
+    <script>
+        // Scroll fade-in animation
+        const fadeEls = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => entry.target.classList.add('visible'), i * 80);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        fadeEls.forEach(el => observer.observe(el));
+    </script>
+
 </body>
+
 </html>
